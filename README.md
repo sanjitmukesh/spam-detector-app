@@ -1,11 +1,10 @@
 # TextSentinel  
-**AI Spam Detection Web App**
+**Spam Detection Web App**
 
-TextSentinel is an AI-powered web application that classifies messages as spam or legitimate using a deep learning model built with TensorFlow/Keras and deployed via Streamlit.
+TextSentinel is a web application that classifies messages as spam or legitimate using a deep learning model built with TensorFlow/Keras and deployed via Streamlit.
 
 - 🧪 Trained in [textsentinel-model](https://github.com/sanjitmukesh/textsentinel-model)
 - 🚀 Try it now at https://textsentinel.streamlit.app/
-
 
 ## Features
 - End-to-end deep learning pipeline for spam classification  
