@@ -27,6 +27,6 @@ if st.button("Classify"):
         prediction = model.predict(user_input)
         confidence = float(prediction[0][0])
         if confidence >= 0.5:
-            st.error(f"This is {confidence:.0%} Spam")
+            st.error(f"This is {confidence:.0%} spam")
         else:
-            st.success(f"This is {(1-confidence):.0%} Legitimate")
+            st.success(f"This is {(1-confidence):.0%} legitimate")
