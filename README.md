@@ -4,7 +4,6 @@
 TextSentinel is an AI-powered web application that classifies messages as spam or legitimate using a deep learning model built with TensorFlow/Keras and deployed via Streamlit. The model was trained on the SMS Spam Collection dataset from Kaggle and achieves 97% validation accuracy.
 
 - 🧪 Trained in [textsentinel-model](https://github.com/sanjitmukesh/textsentinel-model)
-- ☁️ Deployed with Streamlit Cloud
 - 🚀 Try it now at https://textsentinel.streamlit.app/
 
 
