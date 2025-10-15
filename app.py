@@ -2,7 +2,7 @@ import streamlit as st
 import tensorflow as tf
 from keras.models import load_model
 
-st.title("Spam Detector App")
+st.title("TextSentinel")
 st.write("Classify messages as spam or ham using a trained deep learning model.")
 st.markdown("_Built with TensorFlow and Streamlit_")
 st.write("")
