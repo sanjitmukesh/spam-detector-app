@@ -14,12 +14,12 @@ st.write("")
 def initialize():
     return load_model("spam_classifier.keras")
 
-model = initialize()
 
 st.markdown("##### Enter message: ")
 user_input = st.text_input("", label_visibility="collapsed")
 
 if st.button("Classify"):
+    model = initialize()
     if not user_input.strip():
         st.error("Please enter a valid message.")
     else:
