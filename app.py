@@ -29,4 +29,4 @@ if st.button("Classify"):
         if confidence >= 0.5:
             st.error(f"This is {confidence:.0%} Spam")
         else:
-            st.success(f"This is {(1-confidence):.0%} Ham")
+            st.success(f"This is {(1-confidence):.0%} Legitimate")
