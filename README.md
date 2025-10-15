@@ -18,4 +18,3 @@ TextSentinel is an AI-powered web application that classifies messages as spam o
 ## Technologies
 **Languages:** Python  
 **Frameworks/Libraries:** TensorFlow, Keras, Streamlit, NumPy, Pandas, Scikit-learn  
-**Tools:** Git, GitHub, VS Code
