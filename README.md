@@ -12,7 +12,7 @@ TextSentinel is a web application that classifies messages as spam or legitimate
 <p align="center"><em>Example: identifying a spam message</em></p>
 
 ## Features
-- End-to-end deep learning pipeline for spam classification  
+- Uses an end-to-end deep learning pipeline for spam classification  
 - Real-time predictions with model caching for fast inference  
 - Achieves 97% validation accuracy on unseen SMS data  
 
